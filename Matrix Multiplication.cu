@@ -123,3 +123,10 @@ int main() {
 
     return 0;
 }
+
+// Compile with: nvcc -o matrix_multiplication matrix_multiplication.cu
+// Run with: ./matrix_multiplication
+// Example output:
+// Results match!
+// GPU Time: 27 ms
+// CPU Time: 26011 ms
